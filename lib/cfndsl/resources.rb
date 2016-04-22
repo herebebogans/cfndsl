@@ -12,7 +12,7 @@ module CfnDsl
     # rubocop:disable UnusedMethodArgument
     # rubocop:disable UselessAssignment
     def addTag(name, value, propagate = nil)
-      add_tag(name, value, propagate = nil)
+      add_tag(name, value, propagate)
     end
 
     def add_tag(name, value, propagate = nil)
